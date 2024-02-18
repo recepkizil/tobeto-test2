@@ -17,9 +17,9 @@ while i<sayi:
           carpanToplam+=i
      i+=1
 if sayi==carpanToplam:
-     print("Tebrikler mükemmel sayıyı buldunuz.")
+     print("Tebrikler mükemmel sayiyi buldunuz.")
 else:
-     print ("Yeni bir sayı ile deneyiniz")
+     print ("Yeni bir sayi ile deneyiniz")
 
 #3- Kullanıcıdan girilen sayının EBOB ve EKOK'unu bulan programı yazınız.
 import math
@@ -34,22 +34,22 @@ print ("EBOB:", ebob)
 print ("EKOK:", ekok) 
 
 #4- Kullanıcıdan girilen sayının asal sayı olup olmadığını söyleyen bir program yazınız.
-sayi = int(input("Lütfen bir sayı giriniz:"))
+sayi = int(input("Lütfen bir sayi giriniz:"))
 if sayi>1:
 
     for i in range(2,sayi):
         if sayi%i == 0:
-            print("Asal sayı değildir.")
+            print("Asal sayi değildir.")
             break
     else:
-        print("Asal sayıdır.")
+        print("Asal sayidir.")
 else:
-    print("Asal sayı değildir.")
+    print("Asal sayi değildir.")
 
 
 #5- Kullanıcıdan girilen sayının asal çarpanlarını bulan bir program yazınız. 
    
-sayi= int(input("Lütfen asal çarpanlarını bulmak istediğiniz sayıyı giriniz: "))
+sayi= int(input("Lütfen asal çarpanlarini bulmak istediğiniz sayiyi giriniz: "))
 asalCarpan=[]
 i=2
 while i<=sayi:

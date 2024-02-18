@@ -30,30 +30,6 @@ sayilar.clear() #listedeki tüm elemanları siler
 print(sayilar)
 
 
-##1-Kullanıcının girdiği boy ve ağırlık değerlerine göre vücut kitle indeksini (VKİ = ağırlık/(boy*boy)) hesaplayınız.
-
-# Kullanıcının boy ve ağırlık değerlerini girmesini isteyelim
-boy = float(input("Lütfen boyunuzu (metre cinsinde) girin: "))
-agirlik = float(input("Lütfen kilonuzu girin: "))
-
-# Vücut kitle indeksi (VKİ) hesaplanması
-vki = agirlik / (boy ** 2)
-
-# VKİ'yi ekrana yazdıralım
-print("Vücut Kitle İndeksi (VKİ): {:.2f}".format(vki))
-
-# VKİ'ye göre durumu belirleyelim
-if vki < 18.5:
-    durum = "Zayıf"
-elif 18.5 <= vki < 24.9:
-    durum = "Normal"
-elif 25 <= vki < 29.9:
-    durum = "Fazla Kilolu"
-else:
-    durum = "Obez"
-
-# Durumu ekrana yazdıralım
-print("Durum: {}".format(durum))
 
 
 
